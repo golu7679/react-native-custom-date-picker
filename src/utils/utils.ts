@@ -1,4 +1,4 @@
-import { PERSIAN_DIGITS } from './constant';
+import { DIGITS } from './constant';
 import { jalaaliMonthLength, toGregorian, toJalaali } from 'jalaali-js';
 
 /**
@@ -91,5 +91,5 @@ export const fullDate = (year: number, month: number, day: number | string, date
 export const toPersian = (num: string) =>
   `${num}`
     .split('')
-    .map((digit) => PERSIAN_DIGITS[Number(digit)])
+    .map((digit) => DIGITS[Number(digit)])
     .join('');
