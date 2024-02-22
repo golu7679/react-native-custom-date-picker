@@ -1,7 +1,7 @@
 {
-  "name": "react-native-jalali-persian-date-picker",
+  "name": "react-native-custom-date-picker",
   "version": "0.4.4",
-  "description": "React Native Jalali Date Picker Component",
+  "description": "React Native Custom Date Picker Component",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-jalali-persian-date-picker-example",
+    "example": "yarn workspace react-native-custom-date-picker-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -46,21 +46,17 @@
     "react native date time picker",
     "react-native",
     "react-native-date-picker",
-    "jalali",
-    "jalaali",
-    "shamsi",
-    "persian"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/realmahd1/react-native-jalali-persian-date-picker.git"
+    "url": "git+https://github.com/golu7679/react-native-custom-date-picker.git"
   },
-  "author": "M.Mahdi Saeidi <M.Mahdisaeidi99@gmail.com> (https://github.com/realmahd1)",
+  "author": "Golu Rajak <golurajak811@gmail.com> (https://github.com/golu7679)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/realmahd1/react-native-jalali-persian-date-picker/issues"
+    "url": "https://github.com/golu7679/react-native-custom-date-picker/issues"
   },
-  "homepage": "https://github.com/realmahd1/react-native-jalali-persian-date-picker#readme",
+  "homepage": "https://github.com/golu7679/react-native-custom-date-picker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
